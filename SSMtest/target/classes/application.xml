@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd ">
+<!--    spring管理连接池-->
+    <bean id="datasource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="username" value="root"></property>
+        <property name="password" value="2020101642"></property>
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+        <property name="url" value="jdbc:mysql://localhost:3306/javapre"></property>
+<!--连接池优化部分-->
+<!--        最大活跃连接数-->
+        <property name="maxActive" value="10"></property>
+<!--        初始化连接数-->
+        <property name="initialSize" value="2"></property>
+<!--        最大等待时间-->
+        <property name="maxWait" value="2000"></property>
+<!--        最少空闲连接数-->
+        <property name="minIdle" value="2"></property>
+    </bean>
+
+<!--    将sqlsessionfactory交给容器处理-->
+    <bean id="sqlsessionfactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+<!--        相当于创建factory-->
+        <property name="configLocation" value="classpath:MyBatis.xml"></property>
+        <property name="dataSource" ref="datasource"></property>
+        <property name="mapperLocations" value="classpath:/mapper/*Mapper.xml"></property>
+    </bean>
+
+<!--    创建对应接口代理对象交给容器处理-->
+    <bean id="proxy" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+<!--        它会自动创建指定包下的Mapper接口对应的代理对象交给容器处理-->
+        <property name="basePackage" value="com.neu.mapper"></property>
+        <property name="sqlSessionFactoryBeanName" value="sqlsessionfactory"></property>
+    </bean>
+    <context:component-scan base-package="com.neu.service.impl"></context:component-scan>
+    <context:component-scan base-package="com.neu.controller"></context:component-scan>
+
+    <context:annotation-config></context:annotation-config>
+</beans>
