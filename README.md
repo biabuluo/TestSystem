@@ -21,7 +21,7 @@
 
 ## 业务流程图：
 
-<img src="../TestSystem/assets/image-20230721092226162.png" alt="image-20230721092226162" style="zoom:50%;" />
+<img src="https://github.com/biabuluo/TestSystem/blob/main/assets/image-20230721092226162.png?raw=true" style="zoom:50%;" />
 
 
 
@@ -29,22 +29,22 @@
 
 - 教师端：班级管理、题库中心(学科管理、题库管理)、考试管理（考试管理、试卷创建）、个人信息管理
 
-  ![image-20230721092926007](../TestSystem/assets/image-20230721092926007.png)
+  ![image-20230721092926007](https://github.com/biabuluo/TestSystem/blob/main/assets/image-20230721092926007.png?raw=true)
 
-  ![image-20230721092947841](../TestSystem/assets/image-20230721092947841.png)
+  ![image-20230721092947841](https://github.com/biabuluo/TestSystem/blob/main/assets/image-20230721092947841.png?raw=true)
 
-  ![image-20230721092956227](../TestSystem/assets/image-20230721092956227.png)
+  ![image-20230721092956227](https://github.com/biabuluo/TestSystem/blob/main/assets/image-20230721092956227.png?raw=true)
 
-  ![image-20230721093006382](../TestSystem/assets/image-20230721093006382.png)
+  ![image-20230721093006382](https://github.com/biabuluo/TestSystem/blob/main/assets/image-20230721093006382.png?raw=true)
 
-  ![image-20230721093014419](../TestSystem/assets/image-20230721093014419.png)
+  ![image-20230721093014419](https://github.com/biabuluo/TestSystem/blob/main/assets/image-20230721093014419.png?raw=true)
 
   
 
 - 学生端：试卷中心、考试记录、个人信息管理
 
-![image-20230721093028020](../TestSystem/assets/image-20230721093028020.png)
+![image-20230721093028020](https://github.com/biabuluo/TestSystem/blob/main/assets/image-20230721093028020.png?raw=true)
 
-![image-20230721093036313](../TestSystem/assets/image-20230721093036313.png)
+![image-20230721093036313](https://github.com/biabuluo/TestSystem/blob/main/assets/image-20230721093036313.png?raw=true)
 
-![image-20230721093051897](../TestSystem/assets/image-20230721093051897.png)
+![image-20230721093051897](https://github.com/biabuluo/TestSystem/blob/main/assets/image-20230721093051897.png?raw=true)
