@@ -48,3 +48,78 @@
 ![image-20230721093036313](https://github.com/biabuluo/TestSystem/blob/main/assets/image-20230721093036313.png?raw=true)
 
 ![image-20230721093051897](https://github.com/biabuluo/TestSystem/blob/main/assets/image-20230721093051897.png?raw=true)
+
+## 数据模型
+
+### 1.t_user
+
+- id
+- username
+- pwd
+- identify
+
+### 2.t_teacher
+
+- id
+- username
+- teachername
+- sex
+- avatar
+
+### 3.t_grade
+
+- id
+- gradename
+- teacherid
+
+### 4.t_student
+
+- id
+- username
+- studentname
+- sex
+- gradename
+- avatar
+
+### 5.t_subject
+
+- id
+- subject
+
+### 6.t_bank
+
+- id
+- ischoose
+- design
+- ans
+- score
+- cates
+- option1-4
+
+### 7.t_task
+
+- id
+- title
+- teacherid
+- total_score
+- total_num
+- start_date
+- end_date
+
+### 6.t_taskitems(考试任务题目关系表)
+
+- id
+- taskid
+- itemid
+
+### 7.t_record（学生测试记录）
+
+- id
+- studentid
+- taskid
+- score
+- summittime
+- wrongans（json格式）
+
+
+
