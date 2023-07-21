@@ -21,28 +21,30 @@
 
 ## 业务流程图：
 
-<img src="C:/Users/阿小橙/AppData/Roaming/Typora/typora-user-images/image-20230721092226162.png" alt="image-20230721092226162" style="zoom:50%;" />
+<img src="../TestSystem/assets/image-20230721092226162.png" alt="image-20230721092226162" style="zoom:50%;" />
+
+
 
 ## 功能介绍（截图非本项目，仅供参考）
 
 - 教师端：班级管理、题库中心(学科管理、题库管理)、考试管理（考试管理、试卷创建）、个人信息管理
 
-  ![image-20230721092926007](C:/Users/阿小橙/AppData/Roaming/Typora/typora-user-images/image-20230721092926007.png)
+  ![image-20230721092926007](../TestSystem/assets/image-20230721092926007.png)
 
-  ![image-20230721092947841](C:/Users/阿小橙/AppData/Roaming/Typora/typora-user-images/image-20230721092947841.png)
+  ![image-20230721092947841](../TestSystem/assets/image-20230721092947841.png)
 
-  ![image-20230721092956227](C:/Users/阿小橙/AppData/Roaming/Typora/typora-user-images/image-20230721092956227.png)
+  ![image-20230721092956227](../TestSystem/assets/image-20230721092956227.png)
 
-  ![image-20230721093006382](C:/Users/阿小橙/AppData/Roaming/Typora/typora-user-images/image-20230721093006382.png)
+  ![image-20230721093006382](../TestSystem/assets/image-20230721093006382.png)
 
-  ![image-20230721093014419](C:/Users/阿小橙/AppData/Roaming/Typora/typora-user-images/image-20230721093014419.png)
+  ![image-20230721093014419](../TestSystem/assets/image-20230721093014419.png)
 
   
 
 - 学生端：试卷中心、考试记录、个人信息管理
 
-![image-20230721093028020](C:/Users/阿小橙/AppData/Roaming/Typora/typora-user-images/image-20230721093028020.png)
+![image-20230721093028020](../TestSystem/assets/image-20230721093028020.png)
 
-![image-20230721093036313](C:/Users/阿小橙/AppData/Roaming/Typora/typora-user-images/image-20230721093036313.png)
+![image-20230721093036313](../TestSystem/assets/image-20230721093036313.png)
 
-![image-20230721093051897](C:/Users/阿小橙/AppData/Roaming/Typora/typora-user-images/image-20230721093051897.png)
+![image-20230721093051897](../TestSystem/assets/image-20230721093051897.png)
